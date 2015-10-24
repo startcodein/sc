@@ -131,6 +131,7 @@ x.start-code img{
 	height: 100%;
 	top: 0;
 	left: 0;
+  color: #fff;
 	box-sizing: border-box;
 }
 .link-page {
@@ -153,27 +154,6 @@ x.start-code img{
 .link-page span h2{
 	margin: 0;
 	color: #fff;
-}
-.up {
-	padding: 30px 0;
-	transition: transform 0.4s ease 0s, opacity 0.4s  ease 0s;
-}
-.down {
-	transition: transform 0.4s ease 0s, opacity 0.4s ease 0s;
-	opacity: 0;
-	transform: translateY(20%);
-}
-.down p {
-	margin: 5px 0;
-	color: #fff;
-}
-.link-page:hover .up{
-  transform: translateY(-20%);
-  opacity: 0;
-}
-.link-page:hover .down{
-  transform: translateY(0%);
-  opacity: 1;
 }
 
 /* Facebook Link */
