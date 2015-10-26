@@ -1,8 +1,8 @@
 @font-face {
 	font-family: openSans;
-	src: url('../fonts/OpenSans-Regular.ttf');
-	src: url('../fonts/OpenSans-Bold.ttf,'),
-		 url('../fonts/OpenSans-Light.ttf');
+	src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+	src: url('../fonts/OpenSans/OpenSans-Bold.ttf,');
+	src: url('../fonts/OpenSans/OpenSans-Light.ttf');
 }
 html {
 	font-family: openSans;
@@ -141,7 +141,7 @@ x.start-code img{
 	height: 100%;
 	width: 100%;
 }
-.logo-box a span {
+.link-page span {
 	width: 90%;
 	margin: 0 auto;
 	display: block;
@@ -154,6 +154,12 @@ x.start-code img{
 .link-page span h2{
 	margin: 0;
 	color: #f8f8f8;
+}
+.android, .apple {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 5px;
 }
 
 /* Facebook Link */
