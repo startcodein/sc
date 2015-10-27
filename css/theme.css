@@ -105,8 +105,22 @@ h4 {
   line-height: 55px;
   margin: 0;
 }
-x.start-code img{
+.start-code img{
 	max-width: 100%;
+}
+.in {
+  position: absolute;
+  left: calc(100% + 5px);
+  font-weight: bold;
+}
+
+.in:after {
+  content: "++";
+  color: #ff6600;
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  right: 8px;
 }
 
 /* Footer */
@@ -173,7 +187,7 @@ x.start-code img{
 
 .link-box {
 	text-align: center;
-	width: 90%;
+	width: 100%;
 	margin: 15% 0;
 }
 .social-link {
