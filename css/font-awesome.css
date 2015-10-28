@@ -21,3 +21,18 @@
 .fa-apple:before {
   content: "\f179";
 }
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}

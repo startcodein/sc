@@ -42,7 +42,7 @@ h4 {
 .animation {
 	position: absolute;
 	top: 40%;
-	left: 40%;
+	left: calc(40% - 40px);
 }
 .content {
   width: 350px;
