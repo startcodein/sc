@@ -140,35 +140,37 @@ h4 {
 	text-align: center;
 	height: 100%;
 }
+
 .logo-box .div{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   color: #f8f8f8;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 .link-page {
-	display: block;
-	text-decoration: none;
-	color: #333;
-	height: 100%;
-	width: 100%;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  height: 100%;
+  width: 100%;
 }
 .link-page span {
-	width: 90%;
-	margin: 0 auto;
-	display: block;
-	vertical-align: middle;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  vertical-align: middle;
 }
 .link-page span img{
-	max-width: 100%;
-	max-height: 100px;
+  max-width: 100%;
+  max-height: 100px;
 }
 .link-page span h2{
-	margin: 0;
-	color: #f8f8f8;
+  margin: 0;
+  color: #f8f8f8;
 }
 .link-page span p{
   margin: 5px;
@@ -186,37 +188,24 @@ h4 {
 /* Facebook Link */
 
 .link-box {
-	text-align: center;
-	width: 100%;
-	margin: 15% 0;
+  text-align: center;
+  width: 100%;
+  margin: 15% 0;
 }
-.social-link {
-	position: relative;
-	text-decoration: none;
-	color: #f8f8f8;
-	background-color: #cfb300;
-	padding: 10px 25px 10px 10px;
-	display: inline-block;
-	vertical-align: middle;
+.link-box span{
+  font-size: 20px;
+  color: #f8f8f8;
+  margin: 0 7px;
 }
-.social-link:hover {
-	background-color: #CFBF00;
+.social-icon {
+  text-decoration: none;
+  color: #f8f8f8;
+  margin: 0 7px;
 }
-.social-link:before {
-  content: ">";
-  position: absolute;
-  right: 10px;
-  margin: 1px 0px;
-  -webkit-transition: transform 0.1s ease-out;
-  -moz-transition: transform 0.1s ease-out;
-  -ms-transition: transform 0.1s ease-out;
-  -o-transition: transform 0.1s ease-out;
-  transition: transform 0.1s ease-out;
+.social-icon:hover {
+  color: #ae9700;
 }
-.social-link:hover:before, .social-link:focus:before, .social-link:active:before {
-  -webkit-transform: translateX(4px);
-  transform: translateX(4px);
-}
+
 
 @-webkit-keyframes opacity {
   0% {
